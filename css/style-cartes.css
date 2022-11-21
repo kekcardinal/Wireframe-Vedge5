@@ -1,0 +1,30 @@
+.bouton {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+
+.carte {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+.carte input {
+    width: 50%;
+    border-radius: 5px;
+}
+
+hr {
+    margin: auto;
+    background-color: none;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: darkgrey;
+    height: 0px;
+    border-width: 25px;
+    width: 10%;
+}

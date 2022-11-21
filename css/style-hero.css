@@ -1,0 +1,13 @@
+.hero {
+    border-radius: 20px;
+    width: 100%;
+    height: 77vh;
+    object-fit: cover;
+}
+
+
+.hero_logo {
+    padding: 50px;
+    border: 4px solid white;
+    border-radius: 25px;
+}

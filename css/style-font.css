@@ -1,0 +1,78 @@
+/* https://spencermortensen.com/articles/typographic-scale/ */
+html {
+    font-size: 100%;
+}
+
+
+
+/*16px*/
+* {
+    color: rgb(83, 83, 83);
+    letter-spacing: 1.5px;
+}
+
+body {
+    background: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.font_hero_gros_texte {
+    font-size: 8vw;
+}
+
+.font_hero_moyen_texte {
+    font-size: 2vw;
+}
+
+.font_texte_blanc {
+    color: white;
+}
+
+nav a {
+    font-size: 1.5vw;
+}
+
+nav div {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7411em;
+}
+
+h3 {
+    font-size: 1.5157em;
+}
+
+h4 {
+    font-size: 1.3195em;
+}
+
+h5 {
+    font-size: 1.1487em;
+}
+
+p {
+    font-size: 1em;
+}
+
+small {
+    font-size: .8706em;
+}
+
+.font_hero_texte_gros {
+    font-size: 10vw;
+    color: white;
+}
+
+.font_hero_texte_petit {
+    color: white;
+    padding-top: 1vw;
+    font-size: 2vw;
+}

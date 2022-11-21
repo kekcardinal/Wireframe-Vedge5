@@ -1,0 +1,31 @@
+.images_entete {}
+
+.image-gallery-entete img {
+    /* seulement prototype */
+    max-width: 100%;
+    width: 100%;
+    /* seulement prototype */
+    background-color: lightgrey;
+    /* seulement prototype */
+}
+
+
+.image-gallery-entete {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 50px;
+}
+
+.image-gallery-entete div img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1280px) {
+    .image-gallery-entete {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+@import "style.css";
+@import "style-cartes.css";
+@import "style-entete.css";
+@import "style-hero.css";
+@import "style-footer.css";
+@import "style-marquise.css";
+@import "style-font.css";
+@import "style-gallery.css";
+
+
+
+.couleur-bgn {
+    background-color: lightgrey;
+}
+
+.division {
+    margin-left: auto;
+}
+
+.nav_text_centrer {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 90px;
+}
+
+body {
+    font-family: "DM Sans", "Helvetica", "Verdana", sans-serif;
+}
+
+.menu-area ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-area a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.menu-area li {
+    position: relative;
+    width: auto;
+}
+
+.menu-area li:hover .drop-down>li {
+    display: block;
+}
+
+.menu-area a:hover {
+    background-color: darkgrey;
+    transition-duration: 0.4s;
+}
+
+/* SETTINGS POUR LE MENU DEROULANT*/
+.drop-down {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    left: 0;
+    width: 100%;
+}
+
+.dernier-dropdown {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.drop-down li {
+    display: none;
+    position: relative;
+}
+
+.drop-down li:hover {
+    display: block;
+}
+
+.drop-down a {
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 720px) {
+    .division {
+        margin-left: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu-area ul {
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        left: 0px;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid grey;
+    }
+
+    .menu-area li {
+        border-bottom: 1px solid grey;
+    }
+
+    .menu-area a {
+        padding: 0;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    nav div {
+        font-size: 1.5rem;
+    }
+}
